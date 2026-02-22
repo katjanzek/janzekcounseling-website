@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Counseling | Katharina Janzek Counseling</title>
+
+  <!-- Fonts (titles + body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Counseling with Katharina Janzek in Vienna. Psychosocial counseling in English (German version later)." />
+</head>
+
+<body>
+  <!-- TOP BAR (UNCHANGED) -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__title">KATHARINA JANZEK COUNSELING</div>
+        <div class="brand__subtitle">Psychosocial counseling in Vienna | EN &amp; DE</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>        
+        <a class="nav__link" href="counseling.html">Counseling</a>
+        <a class="nav__link" href="workshops.html">Workshops</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="btn btn--primary nav__cta" href="#about-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- MAIN SECTION -->
+    <section class="section">
+      <div class="container">
+
+        <h1 class="couns-title">Workshops</h1>
+
+        <p class="couns-lead">
+          Coming soon..
+        </p>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- CONTACT (CENTERED, SAME DIMENSIONS AS HOMEPAGE CONTACT CARD) -->
+    <section class="section">
+      <div class="container contact-centered">
+
+        <h2 class="section__title">Contact</h2>
+
+        <div class="contact-card">
+          <p class="contact-card__line">
+            Email: <a href="mailto:janzekcounseling@gmail.com">janzekcounseling@gmail.com</a>
+          </p>
+          <p class="contact-card__line">
+            Location: Vienna (address to be added)
+          </p>
+
+          <a class="btn btn--primary btn--wide" href="mailto:janzekcounseling@gmail.com">Mail to</a>
+
+          <p class="note note--tight">
+            In emergencies: this website is not suitable for acute crises.
+            If you are in immediate danger, call <strong>112</strong>. If you need to talk, you can call
+            TelefonSeelsorge <strong>142</strong> (Austria).
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (UNCHANGED) -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__cols">
+        <div>
+          <div class="footer__title">Katharina Janzek Beratung</div>
+          <div class="footer__small">Psychosoziale Beratung in Wien | EN &amp; DE</div>
+        </div>
+
+        <div class="footer__links">
+          <a href="#" title="Create a dedicated impressum page later">Impressum</a>
+          <a href="#" title="Create a dedicated privacy page later">Datenschutz (GDPR)</a>
+          <a href="#" title="Optional page">Haftungsausschluss</a>
+        </div>
+      </div>
+
+      <div class="footer__legal">
+        <p>
+          <strong>Legal:</strong> Katharina Janzek, BA. Vienna, Austria. janzekcounseling@gmail.com
+          competent authority: Magistratisches Bezirksamt 2nd District, GISA: #####.
+        </p>
+        <p>
+          <strong>Disclaimer:</strong> Counseling is not psychotherapy and does not replace medical or psychiatric care.
+          No emergency service. In acute crisis call 112 / TelefonSeelsorge 142.
+        </p>
+        <p class="footer__small">
+          © <span id="year"></span> Katharina Janzek Beratung. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
