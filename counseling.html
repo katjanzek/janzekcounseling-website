@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Counseling | Katharina Janzek Counseling</title>
+
+  <!-- Fonts (titles + body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Counseling with Katharina Janzek in Vienna. Psychosocial counseling in English (German version later)." />
+</head>
+
+<body>
+  <!-- TOP BAR (UNCHANGED) -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__title">KATHARINA JANZEK COUNSELING</div>
+        <div class="brand__subtitle">Psychosocial counseling in Vienna | EN &amp; DE</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>        <a class="nav__link" href="counseling.html">Counseling</a>
+        <a class="nav__link" href="#workshops">Workshops</a>
+        <a class="nav__link" href="#about-contact">About</a>
+        <a class="btn btn--primary nav__cta" href="#about-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- MAIN SECTION -->
+    <section class="section">
+      <div class="container">
+
+        <h1 class="couns-title">Counseling</h1>
+
+        <p class="couns-lead">
+          Psychosocial counseling is a calm, structured space to understand what is happening in your life and inside you.
+          It can help you find steady next steps without having to “perform” or have everything figured out.
+        </p>
+
+        <div class="couns-block">
+          <h2 class="section__title">What we can work on</h2>
+          <ul class="bullets">
+            <li>Life abroad and transitions</li>
+            <li>Stress and pressure</li>
+            <li>Relationships</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- HOW SESSIONS WORK + PRACTICAL DETAILS (RIGHT BOX) -->
+    <section class="section section--alt">
+      <div class="container couns-two-col">
+
+        <div>
+          <h2 class="section__title">How sessions work</h2>
+          <ul class="bullets">
+            <li><strong>Start:</strong> we clarify what feels most urgent right now</li>
+            <li><strong>Understand:</strong> patterns, triggers, needs, and context</li>
+            <li><strong>Tools:</strong> practical steps for everyday life (communication, boundaries, regulation)</li>
+            <li><strong>Review:</strong> what is changing and what you want next</li>
+          </ul>
+        </div>
+
+        <aside class="practical-box" aria-label="Practical details">
+          <h3 class="practical-box__title">Practical details</h3>
+          <ul class="practical-box__list">
+            <li><strong>Session length:</strong> 50 minutes</li>
+            <li><strong>Pricing:</strong> € 90 per session</li>
+            <li><strong>Cancellation:</strong> free up to 48 hours before*</li>
+            <li><strong>Format:</strong> in-person and online</li>
+          </ul>
+          <p class="note note--tight">
+            * In the event of a last-minute cancellation or failure to attend an appointment, the full amount will be charged.
+          </p>
+        </aside>
+
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- CONTACT (CENTERED, SAME DIMENSIONS AS HOMEPAGE CONTACT CARD) -->
+    <section class="section">
+      <div class="container contact-centered">
+
+        <h2 class="section__title">Contact</h2>
+
+        <div class="contact-card">
+          <p class="contact-card__line">
+            Email: <a href="mailto:janzekcounseling@gmail.com">janzekcounseling@gmail.com</a>
+          </p>
+          <p class="contact-card__line">
+            Location: Vienna (address to be added)
+          </p>
+
+          <a class="btn btn--primary btn--wide" href="mailto:janzekcounseling@gmail.com">Mail to</a>
+
+          <p class="note note--tight">
+            In emergencies: this website is not suitable for acute crises.
+            If you are in immediate danger, call <strong>112</strong>. If you need to talk, you can call
+            TelefonSeelsorge <strong>142</strong> (Austria).
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (UNCHANGED) -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__cols">
+        <div>
+          <div class="footer__title">Katharina Janzek Beratung</div>
+          <div class="footer__small">Psychosoziale Beratung in Wien | EN &amp; DE</div>
+        </div>
+
+        <div class="footer__links">
+          <a href="#" title="Create a dedicated impressum page later">Impressum</a>
+          <a href="#" title="Create a dedicated privacy page later">Datenschutz (GDPR)</a>
+          <a href="#" title="Optional page">Haftungsausschluss</a>
+        </div>
+      </div>
+
+      <div class="footer__legal">
+        <p>
+          <strong>Legal placeholders (Austria):</strong> Add your full name, business address, contact email,
+          competent authority (e.g., Magistratisches Bezirksamt), GISA number (if applicable),
+          and professional/legal references. Add a GDPR privacy policy describing hosting, contact data processing,
+          retention, and user rights.
+        </p>
+        <p>
+          <strong>Disclaimer:</strong> Counseling is not psychotherapy and does not replace medical or psychiatric care.
+          No emergency service. In acute crisis call 112 / TelefonSeelsorge 142.
+        </p>
+        <p class="footer__small">
+          © <span id="year"></span> Katharina Janzek Beratung. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
