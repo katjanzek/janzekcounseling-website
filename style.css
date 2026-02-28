@@ -65,9 +65,8 @@ h2{font-weight:700}
 }
 
 .brand__title {
-  font-family: 'Playfair Display', serif;   
-  font-size: 1.05rem;                       
-  letter-spacing: 0.04em;                   
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1.2;
@@ -500,4 +499,5 @@ h2{font-weight:700}
   }
 
 }
+
 
