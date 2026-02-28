@@ -211,10 +211,6 @@ h2{font-weight:700}
 }
 
 /* Fade masks (works on modern browsers) */
-.image-panel--fade-left img{
-  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 18%, black 100%);
-  mask-image: linear-gradient(to left, transparent 0%, black 18%, black 100%);
-}
 .image-panel--fade-right img{
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 18%, black 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 18%, black 100%);
@@ -501,4 +497,5 @@ h2{font-weight:700}
   .about-hero{
     grid-template-columns: 1fr;
   }
+
 }
