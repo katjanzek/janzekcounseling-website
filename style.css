@@ -165,6 +165,7 @@ h2{font-weight:700}
 /* LEFT: TEXT */
 .hero-text {
   padding: 2rem 2rem;
+  patting-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -571,6 +572,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
