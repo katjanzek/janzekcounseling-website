@@ -55,8 +55,8 @@ h2{font-weight:700}
   justify-content: space-between;
 
   /* 🔑 LOCKED HEIGHT CONTROL */
-  padding: 16px 0;
-  min-height: 72px;
+  padding: 10px 0;
+  min-height: 60px;
 }
 
 .brand {
@@ -108,7 +108,7 @@ h2{font-weight:700}
   align-items:center;
   justify-content:center;
   gap:10px;
-  padding: 12px 16px;
+  padding: 10px 14px;
   border-radius: 999px;
   text-decoration:none;
   font-weight: 600;
@@ -156,12 +156,16 @@ h2{font-weight:700}
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 85vh;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   background-color: #fdfcf8;
+  font-family: 'Playfair Display', serif;
 }
 
 /* LEFT: TEXT */
 .hero-text {
-  padding: 6rem 5rem;
+  padding: 2rem 2rem;
+  patting-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,12 +192,72 @@ h2{font-weight:700}
 
 /* RIGHT: IMAGE */
 .hero-image {
-  background-image: url("img/hero-portrait.jpeg"); /* adjust path */
+  background-image: url("img/hero-new.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
 }
 
+/* ================= HERO TYPOGRAPHY ================= */
+
+.hero-question {
+  font-size: clamp(1.9rem, 3.5vw, 3.2rem);
+  line-height: 1.15;
+  max-width: 750px;
+  margin-top: 1rem;
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1.4s ease-out forwards;
+}
+
+.hero-statement {
+  font-size: clamp(1.3rem, 2.4vw, 2.1rem);
+  line-height: 1.25;
+  max-width: 650px;
+  font-weight: 400;
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1.6s ease-out 0.6s forwards;
+}
+
+.hero-cta {
+  font-size: clamp(1.3rem, 2.4vw, 2.1rem);
+  line-height: 1.25;
+  max-width: 650px;
+  font-weight: 400;
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1.6s ease-out 1.2s forwards;
+
+  text-align: center;
+}
+
+/* Stronger emphasis for pressure */
+.pressure {
+  font-weight: 800;
+}
+
+/* Elegant italic support */
+.support {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* ================= ANIMATION ================= */
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* Image panels with fade edges */
 .image-panel{
@@ -211,10 +275,6 @@ h2{font-weight:700}
 }
 
 /* Fade masks (works on modern browsers) */
-.image-panel--fade-left img{
-  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 18%, black 100%);
-  mask-image: linear-gradient(to left, transparent 0%, black 18%, black 100%);
-}
 .image-panel--fade-right img{
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 18%, black 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 18%, black 100%);
@@ -379,6 +439,15 @@ h2{font-weight:700}
 
 /* Responsive */
 @media (max-width: 900px){
+  .hero{grid-template-columns: 1fr;
+        min-height: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;}
+  .hero-image{width: 100%; 
+             aspect-ratio: 1/1;
+             height: auto;}
+  .hero-question{font-size: 1.8rem;}
+  .hero-statement{font-size: 1.2rem;}
   .hero__inner{grid-template-columns: 1fr; }
   .hero__right .image-panel{min-height: 260px}
   .split{grid-template-columns: 1fr; }
