@@ -156,6 +156,7 @@ h2{font-weight:700}
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 85vh;
+  padding: 4rem 0;
   background-color: #fdfcf8;
 }
 
@@ -200,10 +201,10 @@ h2{font-weight:700}
 /* ================= HERO TYPOGRAPHY ================= */
 
 .hero-question {
-  font-size: clamp(2.4rem, 5vw, 4.2rem);
-  line-height: 1.1;
-  max-width: 850px;
-  margin-bottom: 2rem;
+  font-size: clamp(1.9rem, 3.5vw, 3.2rem);
+  line-height: 1.15;
+  max-width: 750px;
+  margin-bottom: 1.5rem;
 
   opacity: 0;
   transform: translateY(30px);
@@ -211,9 +212,9 @@ h2{font-weight:700}
 }
 
 .hero-statement {
-  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-  line-height: 1.2;
-  max-width: 750px;
+  font-size: clamp(1.3rem, 2.4vw, 2.1rem);
+  line-height: 1.25;
+  max-width: 650px;
   font-weight: 400;
 
   opacity: 0;
@@ -422,10 +423,14 @@ h2{font-weight:700}
 
 /* Responsive */
 @media (max-width: 900px){
-  .hero{grid-template-columns: 1fr; }
+  .hero{grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 3rem 1.5rem;}
   .hero-image{width: 100%; 
              aspect-ratio: 1/1;
              height: auto;}
+  .hero-question{font-size: 1.8rem;}
+  .hero-statement{font-size: 1.2rem;}
   .hero__inner{grid-template-columns: 1fr; }
   .hero__right .image-panel{min-height: 260px}
   .split{grid-template-columns: 1fr; }
@@ -550,6 +555,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
