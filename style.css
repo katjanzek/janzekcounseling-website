@@ -198,12 +198,20 @@ h2{font-weight:700}
 }
 
 .hero-hook {
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
   line-height: 1.15;
-  max-width: 700px;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1.2s ease-out forwards;
+  max-width: 750px;
+}
+
+/* Bold word */
+.hero-hook strong {
+  font-weight: 700;
+}
+
+/* Elegant word */
+.elegant-word {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
 }
 
 /* Fade animation */
@@ -520,6 +528,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
