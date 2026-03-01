@@ -425,7 +425,8 @@ h2{font-weight:700}
 @media (max-width: 900px){
   .hero{grid-template-columns: 1fr;
         min-height: auto;
-        padding: 3rem 1.5rem;}
+        padding-left: 1rem;
+        padding-right: 1rem;}
   .hero-image{width: 100%; 
              aspect-ratio: 1/1;
              height: auto;}
@@ -555,6 +556,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
