@@ -233,7 +233,7 @@ h2{font-weight:700}
   transform: translateY(30px);
   animation: fadeInUp 1.6s ease-out 1.2s forwards;
 
-  text-align: right;
+  text-align: center;
 }
 
 /* Stronger emphasis for pressure */
@@ -570,6 +570,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
