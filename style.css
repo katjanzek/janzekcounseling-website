@@ -193,6 +193,8 @@ h2{font-weight:700}
   background-position: center;
   background-repeat: no-repeat;
   min-height: 300px;
+  aspect-ratio: 16 / 9;
+
 }
 
 
@@ -376,6 +378,8 @@ h2{font-weight:700}
 
 /* Responsive */
 @media (max-width: 900px){
+  .hero{grid-template-columns: 1fr; }
+  .hero-image{aspect-ratio: 16/10; }
   .hero__inner{grid-template-columns: 1fr; }
   .hero__right .image-panel{min-height: 260px}
   .split{grid-template-columns: 1fr; }
@@ -500,6 +504,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
