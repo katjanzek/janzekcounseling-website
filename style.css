@@ -156,14 +156,14 @@ h2{font-weight:700}
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 85vh;
-  padding-top: 3rem;
+  padding-top: 1rem;
   background-color: #fdfcf8;
   font-family: 'Playfair Display', serif;
 }
 
 /* LEFT: TEXT */
 .hero-text {
-  padding: 6rem 5rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -570,6 +570,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
