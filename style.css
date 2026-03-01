@@ -157,6 +157,7 @@ h2{font-weight:700}
   grid-template-columns: 1fr 1fr;
   min-height: 85vh;
   padding-top: 1rem;
+  padding-bottom: 3rem;
   background-color: #fdfcf8;
   font-family: 'Playfair Display', serif;
 }
@@ -570,6 +571,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
