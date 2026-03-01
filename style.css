@@ -158,6 +158,7 @@ h2{font-weight:700}
   min-height: 85vh;
   padding: 4rem 0;
   background-color: #fdfcf8;
+  font-family: 'Playfair Display', serif;
 }
 
 /* LEFT: TEXT */
@@ -230,7 +231,8 @@ h2{font-weight:700}
   text-align: right;
   max-width: 650px;
   letter-spacing: 0.03em;
-  opacity: 0.9;
+  opacity: 0.9;  
+  font-family: 'Playfair Display', serif;
 }
 
 /* Stronger emphasis for pressure */
@@ -567,6 +569,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
