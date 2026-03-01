@@ -212,7 +212,6 @@ h2{font-weight:700}
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 1.4s ease-out forwards;
-  text-align: center;
 }
 
 .hero-statement {
@@ -224,8 +223,6 @@ h2{font-weight:700}
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 1.6s ease-out 0.6s forwards;
-  text-align: center;
-
 }
 
 .hero-cta {
@@ -575,6 +572,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
