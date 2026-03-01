@@ -36,8 +36,8 @@ h1, h2 {
   font-weight: 500;
   letter-spacing: 0.01em;
 }
-h1{font-weight:700}
-h2{font-weight:700}
+h1{font-weight:600}
+h2{font-weight:600}
 
 /* Topbar */
 .topbar {
@@ -572,6 +572,7 @@ h2{font-weight:700}
   }
 
 }
+
 
 
 
