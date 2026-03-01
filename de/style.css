@@ -192,7 +192,7 @@ h2{font-weight:700}
 
 /* RIGHT: IMAGE */
 .hero-image {
-  background-image: url("img/hero-new.jpg"); 
+  background-image: url("../img/hero-new.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
