@@ -424,13 +424,10 @@ h2{font-weight:500}
 .footer__links a{
   color: var(--muted);
   text-decoration:none;
-  padding: 8px 10px;
-  border-radius: 999px;
-  border: 1px solid rgba(31,41,51,0.10);
-  background: rgba(253,252,248,0.60);
+  font-weight: 500;
 }
 .footer__links a:hover{
-  background: rgba(211,221,219,0.35);
+  text-decoration: underline;
   color: var(--text);
 }
 .footer__legal{
@@ -574,6 +571,7 @@ h2{font-weight:500}
   }
 
 }
+
 
 
 
