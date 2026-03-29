@@ -20,7 +20,7 @@
 html{scroll-behavior:smooth}
 body{
   margin:0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--text);
   background: var(--warm-white);
   line-height:1.6;
@@ -34,7 +34,7 @@ a{color:inherit}
 
 /* Type */
 h1, h2 {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-weight: 500;
   letter-spacing: 0.01em;
 }
@@ -204,7 +204,7 @@ h2{font-weight:500}
   padding-top: 1rem;
   padding-bottom: 3rem;
   background-color: #fdfcf8;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* LEFT: TEXT */
@@ -249,7 +249,7 @@ h2{font-weight:500}
 /* ================= HERO TYPOGRAPHY ================= */
 
 .hero-question {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: clamp(1.9rem, 3vw, 2.6rem);
   font-weight: 600;
   line-height: 1.15;
@@ -265,7 +265,7 @@ h2{font-weight:500}
 }
 
 .hero-statement {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: clamp(1.3rem, 2.4vw, 2.1rem);
   font-weight: 400;
   line-height: 1.25;
@@ -281,7 +281,7 @@ h2{font-weight:500}
 }
 
 .hero-cta {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: clamp(1.3rem, 2.4vw, 2.1rem);
   line-height: 1.25;
   max-width: 650px;
@@ -297,6 +297,11 @@ h2{font-weight:500}
 }
 .hero-cta a{
   text-decoration: none;
+}
+.hero-cta .btn{
+  padding: 12px 26px;
+  font-size: 1.05em;
+  font-weight: 500;
 }
 
 /* Stronger emphasis for pressure */
@@ -551,7 +556,7 @@ h2{font-weight:500}
 }
 
 .page-hero__title {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-weight: 600;
   font-size: clamp(2.1rem, 3vw, 2.8rem);
   margin: 0 0 0.6rem 0;
@@ -613,7 +618,7 @@ h2{font-weight:500}
 
 .practical-box__title{
   margin: 0 0 0.75rem 0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -648,6 +653,7 @@ h2{font-weight:500}
   }
 
 }
+
 
 
 
