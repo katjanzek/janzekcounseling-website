@@ -970,6 +970,12 @@ h2{font-weight:500}
   box-shadow: var(--shadow);
 }
 
+.couns-hero__image img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 @media (max-width: 900px){
   .about-hero{
     grid-template-columns: 1fr;
