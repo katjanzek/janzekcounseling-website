@@ -154,7 +154,7 @@ h2{font-weight:500}
   color: var(--text);
 }
 .nav__link[aria-current="page"]{
-  background: rgba(211,221,219,0.35);
+  background: rgba(154,106,61,0.16);
   color: var(--text);
 }
 .nav__cta{
@@ -180,7 +180,26 @@ h2{font-weight:500}
   color: var(--text);
   border-color: rgba(31,41,51,0.10);
 }
+.topbar .nav__cta{
+  background: #c69a6d;
+  color: #fff;
+  border-color: #c69a6d;
+}
+.topbar .nav__cta:hover{
+  background: #c69a6d;
+  color: #fff;
+  box-shadow: 0 0 0 6px rgba(154,106,61,0.16);
+}
 .btn--primary:hover{filter: brightness(0.98)}
+.btn--mail{
+  background: #795127;
+  color: #fff;
+  border-color: #795127;
+}
+.btn--mail:hover{
+  background: #795127;
+  color: #fff;
+}
 .btn--ghost{
   background: transparent;
   color: var(--text);
